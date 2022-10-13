@@ -1,0 +1,159 @@
+.Scheduled{
+    position: relative;
+   
+}
+.ScheduledHeader {
+    position: absolute;
+    top: 5rem;
+    left: 15rem;
+    background-color: white;
+    width:100vw ;
+    padding-left: 55px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    
+}
+.ScheduledBody{
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    top: 12rem;
+    left: 20rem;
+    width: 73vw;
+    
+}
+
+.ScheduledName{
+    display: flex;
+    gap: 20px;
+}
+.TableButtonScheduled{
+    padding: 4px;
+    font-size: 0.5rem;
+    border-radius: 10px;
+    width: 80px;
+}
+.TableButtonScheduled1{
+    padding: 6px;
+    font-size: 0.5rem;
+    border-radius: 10px;
+    width: 80px;
+    
+}
+.ScheduledButton{
+    display: flex;
+    gap: 10px;
+}
+.ScheduledMainBody{
+ 
+    position: absolute;
+    top: 15rem;
+    left: 15.5rem;
+    height: 132vh;
+    background-color: white;
+     width: 15vw;
+     border-right: 1px solid lightblue;
+
+}
+.ScheduledMainBody > ul {
+    margin:40px 10px;
+    
+}
+.ScheduledMainBody > ul > li {
+    list-style: none;
+}
+.ScheduledForm{
+    position: absolute;
+    background-color: white;
+    left: 28rem;
+    top: 15rem;
+    height: 132vh;
+    width: 45vw;
+    border-left: 1px solid rgb(176, 187, 186);
+}
+.ScheduledForm > form{
+    margin:40px 10px;
+}
+.ScheduledInputs{
+  display: flex;
+  justify-content: space-around;
+  padding-left: 38px;
+}
+.ScheduledInput{
+    padding-left: 38px;
+  display: flex;
+  gap: 10px;
+}
+.ScheduledInputsTittle{
+    padding-top: 10px;
+    padding-left: 38px;
+}
+.ScheduledInputsDescription{
+    padding-top: 10px;
+    padding-left: 38px;
+}
+.input{
+    width:19vw;
+    background-color: rgb(226, 224, 224);
+    border-radius: 5px;
+}
+.inputs{
+    width:19vw;
+    border-radius: 5px;
+}
+.input1{
+    width:25vw;
+    border-radius: 5px;
+
+}
+.input2{
+    width:12vw;
+    border-radius: 5px;
+}
+.textarea{
+    width: 40vw;
+    border-radius: 5px;
+   height: 100px;
+}
+.textarea1{
+    width: 40vw;
+    border-radius: 5px;
+   height: 40px;
+   color: rgb(226, 224, 224);
+   font-size: 12px;
+   padding-top: 10px;
+}
+.ScheduledPic{
+    height: 130px;
+    width: 120px;
+    border: 1px solid black;
+    padding: 3px;
+    border-radius: 5px;
+}
+.ScheduledIterm{
+   
+    position: absolute;
+   background-color: white;
+    left:66.4rem;
+    top: 15rem;
+    height: 132vh;
+    width:22vw ;
+    border-left: 1px solid rgb(176, 187, 186);
+}
+.Iterm{
+    display: block;
+}
+
+.ItermPic{
+    height: 400px;
+    padding: 10px;
+    width: 300px;
+}
+.ItermButton{
+    background-color: rgb(65, 34, 94);
+    color: white;
+    width: 15vw;
+    height: 50px;
+    margin-left: 50px;
+    align-items: center;
+}

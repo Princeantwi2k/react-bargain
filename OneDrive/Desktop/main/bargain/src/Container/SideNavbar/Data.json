@@ -1,0 +1,71 @@
+[
+    {
+        "title": "Dashboad",
+        "icon": "bi-microsoft",
+        "childrens": [
+            {
+                "title": "Ongoing Actions",
+                
+                "path": "/"
+            },
+            {
+                "title": "Closed Auctions",
+                
+                "path": "/scheduled"
+                
+            },
+            {
+                "title": "Disputes",
+                
+                "path": "/about"
+            },
+            {
+                "title": "Boosted iterms",
+                
+                "path": "/about"
+            },
+            {
+                "title": "Report",
+                
+                "path": "/about"
+            },
+            {
+                "title": "Scheduled Auctions",
+                
+                "path": "/about"
+            },
+            {
+                "title": "Cancelled Auctions",
+                
+                "path": "/about"
+            }
+         
+        ]
+    },
+   
+   
+    {
+        "title": "  Item Management",
+        "icon": "bi-view-list",
+        "childrens": [
+            {
+                "title": "Scheduled Item",
+                "path": "/scheduled"
+            },
+            {
+                "title": "History",
+                "path": "/history"   
+            }
+        ]
+    },
+    {
+        "title": "Support",
+        "icon": "bi-question-circle-fill",
+        "path": "/support"
+    },
+    {
+        "title": "Report Bug",
+        "icon": "bi-bug",
+        "path": "/report-bug"
+    }
+]

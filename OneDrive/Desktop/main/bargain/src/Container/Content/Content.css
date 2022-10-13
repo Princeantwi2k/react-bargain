@@ -1,0 +1,183 @@
+.ItermHeader{
+    position: relative;
+   
+}
+.Header {
+    position: absolute;
+    top: 5rem;
+    left: 15rem;
+    background-color: white;
+    width:100vw ;
+    padding-left: 55px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    
+}
+.ItermBody{
+    position: absolute;
+    top: 12rem;
+    left: 20rem;
+    background-color: white;
+    width: 70vw;
+    
+}
+.ItermTab{
+    margin-left: 10rem;
+}
+.tabpanel{
+    display: flex;
+    justify-content: space-between;
+}
+.maintab{
+    display: flex;
+}
+.subTab{
+    display: flex;
+    gap: 20px;
+}
+.subTab > p {
+    color: darkgreen;
+}
+.itermBottom{
+    width: 100px;
+
+}
+.Itermform{
+    border: 1px solid lightblue;
+    border-radius: 5px;
+    background-color: white;
+}
+.Itermform > input{
+    width: 16rem;
+    border: none;
+    padding: 5px;
+}
+
+.ItermMainBody{
+    position: absolute;
+    top: 10rem;
+ left: 0.5rem;
+    background-color: white;
+    width: 70vw;
+}
+
+.ItermTable{
+    background-color:  rgb(226, 224, 224);
+    margin-top: 20px;
+}
+.TableImage{
+    height: 30px;
+    border:  1px solid lightblue;
+    border-radius: 10px;
+}
+.TableButton{
+    background-color: white;
+    border-color: aqua;
+    padding: 10px;
+    font-size: 0.6rem;
+    border-radius: 20px;
+    width: 80px;
+}
+.TableButton1{
+    background-color: white;
+    border-color: rgb(212, 91, 91);
+    padding: 10px;
+    font-size: 0.6rem;
+    border-radius: 20px;
+    width: 80px;
+}
+.TableButtonAll{
+    padding: 10px;
+    font-size: 0.6rem;
+    border-radius: 20px;
+    width: 80px;
+}
+@media screen  and (max-width:480px){
+    .ItermHeader{
+        position: relative;
+       
+    }
+    .Header {
+        position: absolute;
+        top: 5rem;
+        left: 6rem;
+        background-color: white;
+        width:100vw ;
+        padding-left: 55px;
+        padding-top: 6px;
+        padding-bottom: 6px;
+        
+    }
+    .ItermBody{
+        position: absolute;
+        top: 12rem;
+        left: 6rem;
+        background-color: white;
+        width: 70vw;
+        
+    }
+    .ItermTab{
+        margin-left: 10rem;
+    }
+    .tabpanel{
+        display: flex;
+        justify-content: space-between;
+    }
+    .maintab{
+        display: flex;
+    }
+    .subTab{
+        display: flex;
+        gap: 20px;
+    }
+    .subTab > p {
+        color: darkgreen;
+    }
+    .itermBottom{
+        width: 100px;
+    
+    }
+    .Itermform{
+        border: 1px solid lightblue;
+        border-radius: 5px;
+        background-color: white;
+    }
+    .Itermform > input{
+        width: 16rem;
+        border: none;
+        padding: 5px;
+    }
+    
+    .ItermMainBody{
+        position: absolute;
+        top: 22rem;
+        left: 6rem;
+        background-color: white;
+        width: 70vw;
+    }
+    .ItermTable{
+        background-color:  rgb(226, 224, 224);
+       
+    }
+    .TableImage{
+        height: 30px;
+        border:  1px solid lightblue;
+        border-radius: 10px;
+    }
+    .TableButton{
+        background-color: white;
+        border-color: aqua;
+        padding: 10px;
+        font-size: 0.6rem;
+        border-radius: 20px;
+        width: 80px;
+    }
+    .TableButton1{
+        background-color: white;
+        border-color: rgb(212, 91, 91);
+        padding: 10px;
+        font-size: 0.6rem;
+        border-radius: 20px;
+        width: 80px;
+    }
+}
